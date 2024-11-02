@@ -1,6 +1,5 @@
 # --------Sol---------
 
-+
 
 # ---------- Here calculate the factorial using recursion --------
 # class Solution:
