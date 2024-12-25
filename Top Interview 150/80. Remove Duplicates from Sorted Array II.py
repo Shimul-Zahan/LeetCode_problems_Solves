@@ -1,22 +1,5 @@
 class Solution(object):
     def removeDuplicates(self, nums):
-        # dict = {}
-        # count = 0
-        # for num in nums:
-        #     if num not in dict:
-        #         dict[num] = []
-        #     if len(dict[num]) < 2:
-        #         dict[num].append(num)
-        # # return [val for sublist in dict.values() for val in sublist ]
-        
-        # array = []
-        
-        # for sublist in dict.values():
-        #     for val in sublist:
-        #         array.append(val)
-                
-        # return len(array)
-        
         if len(nums) <= 2:
             return len(nums)
         
